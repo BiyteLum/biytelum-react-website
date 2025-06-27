@@ -60,12 +60,6 @@ const BiyteLumHomepage = () => {
     />
   );
 
-  const GlitchText = ({ children, className }) => (
-    <div className={`relative ${className}`}>
-      <span className="relative z-10">{children}</span>
-    </div>
-  );
-
   return (
     <div className="min-h-screen overflow-hidden relative" style={{ 
       backgroundColor: '#0a0a0a',
